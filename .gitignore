@@ -1,3 +1,4 @@
+node_modules
 # Logs
 logs
 *.log
@@ -74,3 +75,6 @@ typings/
 
 # FuseBox cache
 .fusebox/
+
+package-lock.json
+
