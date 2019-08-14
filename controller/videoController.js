@@ -12,8 +12,8 @@ export const search = (req, res) => {
 };
 export const upload = (req, res) =>
   res.render("upload", { pageTitle: "Upload" });
-export const videos = (req, res) =>
-  res.render("videos", { pageTitle: "Videos" });
+// export const videos = (req, res) =>
+//   res.render("videos", { pageTitle: "Videos" });
 export const videoDetail = (req, res) =>
   res.render("videoDetail", { pageTitle: "Video Detail" });
 export const editVideo = (req, res) =>
