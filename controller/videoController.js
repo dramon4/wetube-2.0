@@ -1,5 +1,4 @@
 // export const home = (req, res) => res.render("home", { pageTitle: "Home" });
-import { videos } from "../db";
 import routes from "../routes";
 export const home = (req, res) => {
   res.render("home", { pageTitle: "Home", videos });
